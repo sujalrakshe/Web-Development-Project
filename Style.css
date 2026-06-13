@@ -1,0 +1,181 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+    font-family: 'Gill Sans', sans-serif;
+     
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width:100%;
+} 
+#header{
+    height: 13%;
+    width:100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    background-color: rgb(246, 240, 251);
+}
+#logo{
+    height: 70%;
+    
+    
+}
+#logo img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+     
+    
+}
+.text{
+     color:rgb(0, 0, 147);
+     
+    display: flex;
+}
+.text:hover{
+    color: rgb(25, 162, 247);
+}
+#contactDetail{
+    
+    font-weight: lighter;
+}
+.icon{
+     
+    padding: 10px; 
+    border-radius: 50px;
+}
+.icon:hover{
+     background-color: skyblue;
+}
+#login{
+    display: flex;
+    padding: 10px; 
+    border-radius: 50px;
+     
+}
+#login:hover{
+    background-color: skyblue;
+}
+#try{
+   background-color: seagreen; 
+   padding: 10px 20px;
+   color:azure
+}
+#try:hover{
+    background-color: rgb(46, 177, 46);
+}
+#fakeheader{
+     height: 13%;
+    width:100%;
+}
+ 
+#page1{
+    height: 87%;
+    width: 100%;
+     
+}
+#strip{
+    width:100%;
+    height: 8%;
+    background-color: rgb(4, 48, 182);
+    color:white;
+    display: flex;
+    align-items: center;
+     
+    justify-content: center;
+    
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+#content{
+   width:100%; 
+   height:76%;
+    
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    width:47%;
+    background-color: azure;
+    margin:10px;  
+}
+#box2{
+    height: 90%;
+    width:47%;
+    background-color: rgb(242, 251, 251);
+    margin:10px;
+}
+#heading{
+    width:100%;
+    height:16%;
+    color:rgb(19, 19, 250);
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading h1{
+    font-weight: 600;
+    
+     
+}
+#box1 h1{
+  font-weight: 600;  
+  color: rgb(9, 9, 121);
+  font-size: 40px;
+  margin: 30px 10px;
+}
+#box1 p{
+    font-size:20px;
+    font-weight: lighter;
+    margin:30px 10px;
+    
+
+}
+#button{
+    display: flex;
+}
+#but1{
+    text-align: center;
+    margin:10px;
+    width:20%;
+    padding:10px 20px;
+    color:white;
+    background-color: rgb(89, 225, 255) ;
+    border-radius: 6px  ;
+}
+#but1:hover{
+    background-color: rgb(0, 0, 147);
+    border-color: rgb(10, 21, 24);
+}
+
+
+#but2{
+    text-align: center;
+    width:20%;
+    padding:10px 20px;
+    color:rgb(89, 225, 255);
+    border:1px solid rgb(89, 225, 255);
+    margin: 10px;
+    border-radius: 6px  ;
+}
+
+#but2:hover{
+    background-color: rgb(224, 242, 250);
+    color:rgb(15, 204, 247);
+    border-color: rgb(10, 21, 24);
+}
+
+ 
